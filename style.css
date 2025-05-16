@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 170px;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.cabeçalho-logo{
+    width: 16%;
+}
+
+.cabeçalho-lista{
+    display: inline-block;
+}
+
+
+.cabeçalho-gmail{
+    display: flex;
+    padding-bottom: 5px;
+    font-size: 90%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.div-icone{
+    padding-left: 130px;
+}
+
+.cabeçalho-icone{
+    width: 24px;
+    
+}
+
+.cabeçalho-item{
+   color: black;
+   display: inline-flex;
+   margin: 0 16px;
+   padding-top: 25px;
+   font-size: 24px;
+   font-family: 'Anonymous Pro', monospace;
+}
+
+nav{
+    position: sticky;
+    top: 170px;
+    background-color: gray;
+    color: black;
+    justify-content: space-around;
+    text-align: center;
+    padding: 4px 4px;
+  
+}
+
+.trabalhos-div-itens{
+    font-size: 24px;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+.trabalhos-itens{
+    display: inline-flex;
+    padding: 8px 67px;
+    background-color: #FFFFFF;
+    color: black;
+}
+
+.missao-imagem{
+    width: 25%;
+}
+
+.sobre-nos{
+    background-image: linear-gradient(#F4F4F4, #FFFFFF);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.div-conteúdo-sobre-nós{
+    width: 50%;
+    font-size: 110%;
+    padding: 0 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sobre-nos-título{
+    padding: 24px 0;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+.missao{
+    background-color: #FFFFFF;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.div-conteúdo-missao{
+    width: 50%;
+    font-size: 110%;
+    padding: 0 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.missao-título{
+    padding: 24px 0;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+.visao{
+    background-color: #FFFFFF;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.div-conteúdo-visao{
+    width: 50%;
+    font-size: 110%;
+    padding: 0 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.visao-título{
+    padding: 24px 0;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+.valor{
+    background-color: #FFFFFF;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.div-conteúdo-valor{
+    width: 50%;
+    font-size: 110%;
+    padding: 0 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.valor-título{
+    padding: 24px 0;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+.trabalhos-títulos{
+    text-align: center;
+    padding: 40px 0;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+.trabalhos{
+    background-color: #FFFFFF;
+}
+
+.trabalhos-título{
+    font-size: 200%;
+    padding: 30px 0;
+}
+
+.trabalhos-subtítulo{
+    font-size: 150%;
+}
+
+.trabalhos-div{
+    text-align: center;
+    padding: 20px;
+}
+
+.trabalhos-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    padding: 24px;
+}
+
+.trabalhos-imagem{
+    width: 50%;
+}
+
+.trabalhos-nome{
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+.rodapé{
+    background-color: black; 
+    text-align: center;
+}
+
+.rodapé-imagem{
+    width: 25%;
+}
+
+.ofertas{
+    background-color: #FFFFFF;
+}
+
+.título-ofertas{
+    font-size: 220%;
+    padding: 40px 0;
+    padding-left: 110px;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+.móveis-ofertas{
+    background-color: #d9d9d9;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    margin: 40px;
+}
+
+.móveis-ofertas-imagem{
+    width: 20%;
+}
+
+.div-móveis-ofertas{
+    width: 73%;
+    font-size: 130%;
+    padding: 20px 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.móveis-ofertas-produto{
+    padding: 10px 0;
+    padding-bottom: 50px;
+}
+
+
+.entregas-div{
+    text-align: center;
+    padding: 20px 40px;
+}
+
+.entregas-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    padding: 24px;
+}
+
+.entregas-imagem{
+    width: 120%;
+}
+
+.entregas-nome{
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 150%;
+}
+
+.tabela-div{
+    padding: 30px;
+    padding-top: 0px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+
+  }
+
+  td {
+    color: black;
+  }
+
+  th {
+    background-color: #709b6d;
+    color: white;
+
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  tr:hover {
+    background-color: #c9f7c6;
+  }
+
